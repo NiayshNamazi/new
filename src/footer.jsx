@@ -10,13 +10,13 @@ function Footer() {
       <div className={styles.footer}>
         <div className={styles.footer_icon}>
           <div className={styles.footer_icon_a}>
-          <img src={mySvg}/>
+          <img className={styles.svg} src={mySvg}/>
           </div>
           <div className={styles.footer_icon_a}>
-          <img src={myySvg}/>
+          <img className={styles.svg} src={myySvg}/>
           </div>
           <div className={styles.footer_icon_a}>
-            <img src={myyySvg}/>
+            <img className={styles.svg} src={myyySvg}/>
           </div>
         </div>
         <div className={styles.footer_text}>
